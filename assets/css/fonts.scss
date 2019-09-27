@@ -19,9 +19,9 @@ font-style: normal;
 }
 
 @mixin bold {
-  font-family: 'Open Sans Semibold' sans-serif;
+  font-family: 'Open Sans Semibold', sans-serif;
 }
 
 @mixin regular {
-  font-family: 'Open Sans Regular' sans-serif;
+  font-family: 'Open Sans Regular', sans-serif;
 }
