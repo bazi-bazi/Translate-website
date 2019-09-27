@@ -11,12 +11,3 @@
   src: url("OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("OpenSans-SemiBold.woff") format("woff"), url("OpenSans-SemiBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-body {
-  font-family: 'Open Sans Regular' sans-serif; }
