@@ -6,6 +6,7 @@
 $color-text: #606060;
 $text-size:16px;
 $line-height:24px;
+$maincolor:#ff5a5f;
 
 // MAIN STYLES
 
@@ -31,11 +32,28 @@ body {
 .header{
   background-image: url("../../images/cover.jpg");
   background-repeat: no-repeat;
-  min-height:750px;
-}
-.header-itms__text{
-
+  min-height:600px;
 }
 .header-itms{
   display: flex;
+  padding-top:240px;
+
+  .header-itms__text {
+    width: 500px;
+    margin-right: 400px;
+  }
+}
+
+.header-itms__text__main{
+  color:$maincolor;
+  font-size: 32px;
+  @include bold;
+}
+.header-itms__text__slogan{
+  color:white;
+  font-size: 22px;
+  @include regular;
+}
+.header-itms__logo {
+  width: 500px;
 }

@@ -31,9 +31,26 @@ body {
 .header {
   background-image: url("../../images/cover.jpg");
   background-repeat: no-repeat;
-  min-height: 750px; }
+  min-height: 600px; }
 
 .header-itms {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding-top: 240px; }
+  .header-itms .header-itms__text {
+    width: 500px;
+    margin-right: 400px; }
+
+.header-itms__text__main {
+  color: #ff5a5f;
+  font-size: 32px;
+  font-family: 'Open Sans Semibold', sans-serif; }
+
+.header-itms__text__slogan {
+  color: white;
+  font-size: 22px;
+  font-family: 'Open Sans Regular', sans-serif; }
+
+.header-itms__logo {
+  width: 500px; }
