@@ -18,8 +18,8 @@ $line-height:24px;
 body {
   @include regular;
   color:$color-text;
-  line-height:$line-height;
   text-size: $text-size;
+  width: 1920px;
 }
 
 .container {
@@ -28,3 +28,14 @@ body {
 }
 
 // HEADER COVER
+.header{
+  background-image: url("../../images/cover.jpg");
+  background-repeat: no-repeat;
+  min-height:750px;
+}
+.header-itms__text{
+
+}
+.header-itms{
+  display: flex;
+}
