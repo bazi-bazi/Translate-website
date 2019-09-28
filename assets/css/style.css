@@ -19,4 +19,11 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Open Sans Regular', sans-serif; }
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #606060;
+  line-height: 24px;
+  text-size: 16px; }
+
+.container {
+  width: 1170px;
+  margin: 0 auto; }

@@ -1,5 +1,11 @@
+
+//IMPORTS
 @import 'fonts.scss';
 
+//VARIEBLES
+$color-text: #606060;
+$text-size:16px;
+$line-height:24px;
 
 // MAIN STYLES
 
@@ -11,4 +17,14 @@
 
 body {
   @include regular;
+  color:$color-text;
+  line-height:$line-height;
+  text-size: $text-size;
 }
+
+.container {
+  width: 1170px;
+  margin:0 auto;
+}
+
+// HEADER COVER
