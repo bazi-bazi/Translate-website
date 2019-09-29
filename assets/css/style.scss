@@ -60,13 +60,18 @@ body {
 }
 
 // NAVIGATION
+.navbar{
+  border-bottom: 1px solid $color-text;
+}
 
 .navbar__items{
   display: flex;
   padding-top: 30px;
+  padding-bottom: 30px;
 
   .navbar__items__menu{
     display: flex;
+    align-items: center;
     list-style: none;
 
     .navbar__items__menu__btn{
