@@ -26,6 +26,7 @@ body {
 .container {
   width: 1170px;
   margin:0 auto;
+
 }
 
 // HEADER COVER
@@ -56,4 +57,44 @@ body {
 }
 .header-itms__logo {
   width: 500px;
+}
+
+// NAVIGATION
+
+.navbar__items{
+  display: flex;
+  padding-top: 30px;
+
+  .navbar__items__menu{
+    display: flex;
+    list-style: none;
+
+    .navbar__items__menu__btn{
+      margin-right: 30px;
+      @include bold;
+      font-size: 16px;
+      text-transform: uppercase;
+
+      a{
+      text-decoration: none;
+      color: $color-text;
+
+       &:hover{
+         color:$maincolor;
+         border-bottom: 1px solid $maincolor;
+       }
+      }
+    }
+  }
+}
+
+.social-btns{
+  justify-content: flex-end;
+  margin-left: auto;
+
+
+  a{
+  margin-left: 20px;
+  }
+
 }

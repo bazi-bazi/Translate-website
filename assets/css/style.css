@@ -54,3 +54,33 @@ body {
 
 .header-itms__logo {
   width: 500px; }
+
+.navbar__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px; }
+  .navbar__items .navbar__items__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none; }
+    .navbar__items .navbar__items__menu .navbar__items__menu__btn {
+      margin-right: 30px;
+      font-family: 'Open Sans Semibold', sans-serif;
+      font-size: 16px;
+      text-transform: uppercase; }
+      .navbar__items .navbar__items__menu .navbar__items__menu__btn a {
+        text-decoration: none;
+        color: #606060; }
+        .navbar__items .navbar__items__menu .navbar__items__menu__btn a:hover {
+          color: #ff5a5f;
+          border-bottom: 1px solid #ff5a5f; }
+
+.social-btns {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-left: auto; }
+  .social-btns a {
+    margin-left: 20px; }
