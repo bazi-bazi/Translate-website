@@ -79,10 +79,13 @@ body {
       @include bold;
       font-size: 16px;
       text-transform: uppercase;
+      transition: 0.10s;
 
       a{
       text-decoration: none;
       color: $color-text;
+      transition: color .25s linear;
+
 
        &:hover{
          color:$maincolor;
@@ -105,9 +108,52 @@ body {
    .social-btns__icon{
      width: 22px;
 
+
+     .social-btns__icon:hover{
+
+     }
+
    }
   }
 
 }
 
 // SERVICES
+.services__introduce{
+  padding-top: 100px;
+  text-align: center;
+ border-bottom: 2px solid $maincolor;
+
+  .services__text{
+    font-size: 32px;
+    display: inline-block;
+    text-transform: uppercase;
+    @include bold;
+    padding: 10px;
+
+  }
+}
+
+
+.service{
+  padding-top: 90px;
+  display: flex;
+}
+
+.service__document{
+  padding-right: 10px;
+  width:350px;
+  flex-grow: 1;
+
+}
+
+.service__localisation{
+  width:350px;
+  flex-grow: 1;
+  padding-right: 10px;
+
+}
+.service__multimedia{
+  width:350px;
+  flex-grow: 1;
+}
