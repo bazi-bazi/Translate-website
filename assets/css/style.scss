@@ -120,7 +120,7 @@ body {
 
 // SERVICES
 .services__introduce{
-  padding-top: 100px;
+  padding-top: 180px;
   text-align: center;
  border-bottom: 2px solid $maincolor;
 
@@ -136,7 +136,7 @@ body {
 
 
 .service{
-  padding-top: 90px;
+  padding-top: 110px;
   display: flex;
 }
 
@@ -145,6 +145,11 @@ body {
   width:350px;
   flex-grow: 1;
 
+  span{
+    color: $maincolor;
+    @include bold;
+    text-transform: uppercase;
+  }
 }
 
 .service__localisation{
@@ -156,4 +161,9 @@ body {
 .service__multimedia{
   width:350px;
   flex-grow: 1;
+}
+
+.service__title{
+  margin-bottom: 20px;
+   
 }
