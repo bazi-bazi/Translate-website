@@ -8,6 +8,18 @@ $text-size:16px;
 $line-height:24px;
 $maincolor:#ff5a5f;
 
+@mixin maintext {
+  color:$maincolor;
+  font-size: 32px;
+  @include bold;
+}
+
+@mixin mainslogan{
+  color:white;
+  font-size: 22px;
+  @include regular;
+}
+
 // MAIN STYLES
 
 * {
@@ -168,4 +180,44 @@ body {
   .service__icon{
     margin-right: 10px;
   }
+}
+
+// FEATURES
+
+.features{
+  background-image: url("../../images/features.jpg");
+  margin-top: 100px;
+  min-height: 790px;
+}
+.features-items{
+  display: flex;
+  padding-top: 100px;
+
+  .features-items__title{
+    flex-basis: 500px;
+
+    .features-items__title__h3{
+      @include maintext;
+    }
+    .features-items__title__hp{
+      @include mainslogan;
+    }
+  }
+
+
+  .features-items__block{
+    flex-basis: 600px;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 10px;
+
+    .features-items__block__title{
+      @include maintext;
+      padding: 20px;
+    }
+    .features-items__block__list{
+      padding: 50px;
+    }
+  }
+
 }
