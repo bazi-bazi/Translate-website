@@ -162,11 +162,17 @@ body {
     .features-items .features-items__title .features-items__title__h3 {
       color: #ff5a5f;
       font-size: 32px;
-      font-family: 'Open Sans Semibold', sans-serif; }
+      font-family: 'Open Sans Semibold', sans-serif;
+      font-size: 54px;
+      text-transform: uppercase; }
     .features-items .features-items__title .features-items__title__hp {
       color: white;
       font-size: 22px;
-      font-family: 'Open Sans Regular', sans-serif; }
+      font-family: 'Open Sans Regular', sans-serif;
+      margin-top: 20px; }
+    .features-items .features-items__title .features-items_image {
+      margin-top: 40px;
+      width: 500px; }
   .features-items .features-items__block {
     -ms-flex-preferred-size: 600px;
     flex-basis: 600px;
@@ -180,6 +186,8 @@ body {
       padding: 20px; }
   .features-items .features-items__block__list {
     padding: 30px; }
+    .features-items .features-items__block__list:hover {
+      background-color: #edf2f2; }
     .features-items .features-items__block__list .features-items__block__icon {
       float: left;
       margin-right: 10px;

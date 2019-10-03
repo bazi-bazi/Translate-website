@@ -198,9 +198,17 @@ body {
 
     .features-items__title__h3{
       @include maintext;
+      font-size: 54px;
+      text-transform: uppercase;
     }
     .features-items__title__hp{
       @include mainslogan;
+      margin-top: 20px;
+    }
+
+    .features-items_image{
+      margin-top: 40px;
+      width: 500px;
     }
   }
 
@@ -219,6 +227,10 @@ body {
   }
  .features-items__block__list{
    padding: 30px;
+
+   &:hover{
+     background-color: rgb(237, 242, 242);
+   }
 
    .features-items__block__icon{
      float: left;
