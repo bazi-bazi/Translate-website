@@ -178,5 +178,9 @@ body {
       font-size: 32px;
       font-family: 'Open Sans Semibold', sans-serif;
       padding: 20px; }
-    .features-items .features-items__block .features-items__block__list {
-      padding: 50px; }
+  .features-items .features-items__block__list {
+    padding: 30px; }
+    .features-items .features-items__block__list .features-items__block__icon {
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 10px; }

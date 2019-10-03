@@ -215,9 +215,16 @@ body {
       @include maintext;
       padding: 20px;
     }
-    .features-items__block__list{
-      padding: 50px;
-    }
-  }
 
+  }
+ .features-items__block__list{
+   padding: 30px;
+
+   .features-items__block__icon{
+     float: left;
+     margin-right: 10px;
+     margin-bottom: 10px;
+   }
+
+ }
 }
