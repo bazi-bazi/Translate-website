@@ -207,3 +207,5 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .about-us__block .about-us__text .features-items__title__h3 {
+    margin-bottom: 20px; }
