@@ -102,13 +102,13 @@ body {
 
 .services__introduce {
   padding-top: 180px;
-  text-align: center;
-  border-bottom: 2px solid #ff5a5f; }
+  text-align: center; }
   .services__introduce .services__text {
-    font-size: 32px;
     display: inline-block;
+    font-size: 32px;
     text-transform: uppercase;
     font-family: 'Open Sans Semibold', sans-serif;
+    border-bottom: 2px solid #ff5a5f;
     padding: 10px; }
 
 .service {
@@ -192,3 +192,18 @@ body {
       float: left;
       margin-right: 10px;
       margin-bottom: 10px; }
+
+.about-us {
+  margin-top: 100px; }
+  .about-us h2 {
+    display: inline-block;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Semibold', sans-serif;
+    border-bottom: 2px solid #ff5a5f; }
+
+.about-us__block {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
