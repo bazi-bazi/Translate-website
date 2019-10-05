@@ -267,3 +267,39 @@ body {
     }
   }
 }
+
+// FOOTER
+
+.footer{
+  background-color: #27293e;
+  margin-top: 100px;
+}
+
+.footer-block{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items:baseline;
+
+  .footer-block__contact__text{
+    line-height: 27px;
+    margin-top: 20px;
+
+    p{
+      align-items:baseline;
+    }
+
+    img{
+
+      margin-right: 10px;
+    }
+  }
+  .footer-block__btns{
+    justify-content: flex-end;
+    margin-left: auto;
+
+    img{
+      margin-left: 15px;
+    }
+  }
+}
