@@ -71,6 +71,7 @@ body {
   @include bold;
 }
 .header-itms__text__slogan{
+  margin-top: 10px;
   color:white;
   font-size: 22px;
   @include regular;

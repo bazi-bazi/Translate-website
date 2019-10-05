@@ -48,6 +48,7 @@ body {
   font-family: 'Open Sans Semibold', sans-serif; }
 
 .header-itms__text__slogan {
+  margin-top: 10px;
   color: white;
   font-size: 22px;
   font-family: 'Open Sans Regular', sans-serif; }
